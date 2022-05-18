@@ -1,0 +1,106 @@
+<Configs>
+
+<remove xpath="/Sounds/SoundDataNode[@name='drone_command']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_empty']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_enemy_sense']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_enemy_engauge']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_heal']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_other']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_shutdown']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_take']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_takefail']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_wakeup']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_greeting']" />	
+
+<append xpath="/Sounds">
+	<SoundDataNode name="drone_command"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_command follow wheregoing"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_command follow"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_command stay dont leave"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_command stay"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_empty"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_empty"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_enemy_sense"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_enemy_sense birds"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_enemy_sense heads up"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_enemy_sense"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	  <SoundDataNode name="drone_enemy_engauge">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<NoEEEEEEise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_enemy_engage blowminds"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_enemy_engage"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/>
+	  </SoundDataNode>
+
+	<SoundDataNode name="drone_heal"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_heal ontheway"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_heal"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_other"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="Sounds/VO/Drone/drone_other_01"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_shutdown"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_shutdown ohno"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_shutdown"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_take"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?Drone_take 2"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_take"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_takefail"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_takefail 2"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_takefail"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_wakeup"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_wakeup coffee 2"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_wakeup good morning"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	  <SoundDataNode name="drone_greeting">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_greeting hi"/>
+		<AudioClip ClipName="#@modfolder:Resources/CappDroneSounds.unity3d?drone_greeting Hullo"/>
+		<LocalCrouchVolumeScale value="1.0"/>
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/>
+		<MaxVoices value="10"/>
+		<MaxRepeatRate value="1.111"/>
+	  </SoundDataNode>
+  </append>
+	
+	<!---
+		drone_wakeup	  	// Startup
+		drone_greeting    	// Interact
+		drone_command		// Stay/Follow
+		drone_enemy_sense	// Detect Zombie
+		drone_enemy_engauge // Fight Zombie
+		drone_take			// Pick up Drone
+		drone_takefail     	// Drone has inventory error
+		drone_heal			// Heal player
+		drone_empty			// Out of bandages when told to heal manually
+		drone_other			// ?
+		drone_shutdown 		// Player death/Drone too damaged
+		
+	-->
+</Configs>	
