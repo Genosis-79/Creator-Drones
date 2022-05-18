@@ -10,8 +10,11 @@ Well, no one is laughing now. Well, actually they are because she's quite a char
 Currently the list of content creators that have voice packs are:
 
 DaphyDuck91 - http://youtube.com/NotAGamerGaming
+
 Genosis - http://youtube.com/Genosis
+
 Capp00 - http://youtube.com/Capp00
+
 Jawoodle - http://youtube.com/JaWoodle
 
 More creators to come, as they become interested!
