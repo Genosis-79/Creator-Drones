@@ -1,0 +1,258 @@
+<Configs>
+
+<remove xpath="/Sounds/SoundDataNode[@name='drone_command']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_empty']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_enemy_sense']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_enemy_engauge']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_heal']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_other']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_shutdown']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_take']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_takefail']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_wakeup']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_greeting']" />	
+
+<append xpath="/Sounds">
+		
+	<SoundDataNode name="drone_command"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_AightAndIMeanThatIronically"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_IfYouSaySo"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_LikeIHaveAChoice"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_SighFine"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_empty"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_OutOfMedical"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Allahkhazam"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_WhatDoYouWantMeToBandageYouWith"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_OnYoureOwn"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_enemy_sense"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_LookZombies"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_HeyListen"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_XPWithLegs"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Reload"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Danger"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+		
+	  <SoundDataNode name="drone_enemy_engauge">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_AimForTheDick"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_HopeYoureReady"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_WatchYourHealth"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_BoomHeadShot"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/>
+	  </SoundDataNode>
+		
+	<SoundDataNode name="drone_heal"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Stimpack"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Clear"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_TryNotGettingHitByZombies"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_PutABedrollDown"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_other"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="Sounds/VO/Drone/drone_other_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Umm"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Crisis"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_DroneDick"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_LadyDrones"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+		
+	<SoundDataNode name="drone_shutdown"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_OwImFine"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_DroneDown"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_EscourtQuests"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_TakeANap"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_take"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_WatchThoseHands"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_WhereYourePuttingMe"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_18Inches"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_CouldUseANap"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_takefail"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_CarryingShit"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_AreYouForgettingSomething"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_EmptyInventoryFirst"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_NopeTryAgain"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> 
+	</SoundDataNode>
+
+		
+	<SoundDataNode name="drone_wakeup"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_HowsItGoing"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Yo"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_GenosisHere"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_YawnAlright"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	  <SoundDataNode name="drone_greeting">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_WhatCanIDoYaFor"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_HowCanIHelp"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_Sup"/>
+		<AudioClip ClipName="#@modfolder:Resources/GenDroneSounds.unity3d?GenDrone_ThisHadBetterBeGood"/>
+		<LocalCrouchVolumeScale value="1.0"/>
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/>
+		<MaxVoices value="10"/>
+		<MaxRepeatRate value="1.111"/>
+	  </SoundDataNode>
+  </append>
+	
+	<!---
+		drone_wakeup	  	// Startup
+		drone_greeting    	// Interact
+		drone_command		// Stay/Follow
+		drone_enemy_sense	// Detect Zombie
+		drone_enemy_engauge // Fight Zombie
+		drone_take			// Pick up Drone
+		drone_takefail     	// Drone has inventory error
+		drone_heal			// Heal player
+		drone_empty			// Out of bandages when told to heal manually
+		drone_other			// ?
+		drone_shutdown 		// Player death/Drone too damaged
+		
+		Lines: 
+		
+		drone_wakeup
+		"hey, how's it going"
+		"Yo"
+		"Hello! Genosis here"
+		"Yawn, alright, alright"
+		
+		GenDrone_HowsItGoing
+		GenDrone_Yo
+		GenDrone_GenosisHere
+		GenDrone_YawnAlright
+		
+		drone greeting
+		"What can I do ya for"
+		"How can I help you?"
+		S'up
+		"This better be good"
+		
+		GenDrone_WhatCanIDoYaFor
+		GenDrone_HowCanIHelp
+		GenDrone_Sup
+		GenDrone_ThisHadBetterBeGood
+		
+		drone command
+		"A'ight. And I mean that ironically"
+		"If you say so"
+		"Like I have a choice"
+		"Sigh. Fine."
+		
+		GenDrone_AightAndIMeanThatIronically
+		GenDrone_IfYouSaySo
+		GenDrone_LikeIHaveAChoice
+		GenDrone_SighFine
+		
+		drone enemy sense
+		"Hey look. Zombies"
+		"Psst. Hey! Listen!"
+		"Oh good. XP with legs"
+		"Did you reload your gun lately"
+		"DANGER Will Robinson."
+		
+		GenDrone_LookZombies
+		GenDrone_HeyListen
+		GenDrone_XPWithLegs
+		GenDrone_Reload
+		GenDrone_Danger
+		
+		drone enemy engage
+		"aim for the dick!"
+		"Hope you're ready for this":
+		"Watch your health!"
+		"Boom! Headshot!"
+		
+		GenDrone_AimForTheDick
+		GenDrone_HopeYoureReady
+		GenDrone_WatchYourHealth
+		GenDrone_BoomHeadShot
+				
+		drone_take 
+		"Hey! Watch those hands"
+		"I hope whereever you are putting me smells better than you do"
+		"You're lucky I'm only 18 inches tall"
+		"Oh good, I could use a nap"
+		
+		GenDrone_WatchThoseHands
+		GenDrone_WhereYourePuttingMe
+		GenDrone_18Inches
+		GenDrone_CouldUseANap
+		
+		take fail
+		"Dude, I'm still carrying your shit"
+		"Umm.. are you forgetting something?"
+		"Maybe try emptying my inventory first? Noob.
+		"Nope! Try again"
+		
+		GenDrone_CarryingShit
+		GenDrone_AreYouForgettingSomething
+		GenDrone_EmptyInventoryFirst
+		GenDrone_NopeTryAgain
+		
+		drone_heal
+		"Here, take a stimpack. Just kidding"
+		"Clear!"
+		"Maybe try not getting hit by zombies?"
+		"Maybe you should put a bedroll down"
+		
+		GenDrone_Stimpack
+		GenDrone_Clear
+		GenDrone_TryNotGettingHitByZombies
+		GenDrone_PutABedrollDown
+		
+		drone_empty
+		"I seem to be out of medical items"
+		"Allakazam, you're healed. Just kidding, I can't do that"
+		"What do you want me to bandage you with? My charming personality?"
+		You're on your own, I can't heal you
+		
+		GenDrone_OutOfMedical
+		GenDrone_Allahkhazam
+		GenDrone_WhatDoYouWantMeToBandageYouWith
+		GenDrone_OnYoureOwn
+		
+		drone_other
+		"Umm..."
+		"I'm having an existential crisis here"
+		"I just realized... drone's dont have dicks. What am I going to do with my life?"
+		"hey, any hot lady drones around here?'
+		
+		GenDrone_Umm
+		GenDrone_Crisis
+		GenDrone_DroneDick
+		GenDrone_LadyDrones
+		
+		drone_shutdown
+		"Ouch! It's fine. I'm fine."
+		"Drone down!"
+		"You must suck at escourt quests"
+		"I'm... just gonna take a nap"
+		
+		GenDrone_OwImFine
+		GenDrone_DroneDown
+		GenDrone_EscourtQuests
+		GenDrone_TakeANap
+		
+	-->
+
+</Configs>	
