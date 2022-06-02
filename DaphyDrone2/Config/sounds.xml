@@ -1,0 +1,194 @@
+<Configs>
+
+<remove xpath="/Sounds/SoundDataNode[@name='drone_command']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_empty']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_enemy_sense']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_enemy_engauge']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_heal']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_other']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_shutdown']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_take']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_takefail']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_wakeup']" />	
+<remove xpath="/Sounds/SoundDataNode[@name='drone_greeting']" />	
+
+<append xpath="/Sounds">
+	<SoundDataNode name="drone_command"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_08"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_09"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_10"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_11"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_12"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_13"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_14"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_15"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_16"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_command/drone_command_17"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_empty"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_empty/drone_empty_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_empty/drone_empty_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_empty/drone_empty_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_empty/drone_empty_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_empty/drone_empty_05"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+		
+	<SoundDataNode name="drone_enemy_engauge">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_08"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_09"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_engauge/drone_enemy_engauge_10"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/>
+	  </SoundDataNode>
+
+	<SoundDataNode name="drone_enemy_sense"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_08"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_09"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_10"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_enemy_sense/drone_enemy_sense_11"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+  <SoundDataNode name="drone_greeting">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_greeting/drone_greeting_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_greeting/drone_greeting_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_greeting/drone_greeting_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_greeting/drone_greeting_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_greeting/drone_greeting_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_greeting/drone_greeting_06"/>
+		<LocalCrouchVolumeScale value="1.0"/>
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/>
+		<MaxVoices value="10"/>
+		<MaxRepeatRate value="1.111"/>
+	  </SoundDataNode>
+
+	<SoundDataNode name="drone_heal"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_08"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_09"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_10"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_11"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_12"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_13"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_14"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_15"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_16"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_heal/drone_heal_17"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_other"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<!--<AudioClip ClipName="Sounds/VO/Drone/drone_other_01"/>-->
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_03"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+	<SoundDataNode name="drone_shutdown"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_shutdown/drone_shutdown_07"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> 
+	</SoundDataNode>
+
+	<SoundDataNode name="drone_take"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_08"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_09"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_10"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_take/drone_take_11"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> 
+	</SoundDataNode>
+
+	<SoundDataNode name="drone_takefail"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_takefail/drone_takefail_08"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> 
+	</SoundDataNode>
+
+	<SoundDataNode name="drone_wakeup"> <AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_01"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_02"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_03"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_04"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_05"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_06"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_07"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_08"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_09"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_10"/>
+		<AudioClip ClipName="#@modfolder:Resources/DaphyDrone2Sounds.unity3d?drone_wakeup/drone_wakeup_11"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> 
+	</SoundDataNode>
+
+	  
+  </append>
+	
+	<!---
+		drone_wakeup	  	// Startup
+		drone_greeting    	// Interact
+		drone_command		// Stay/Follow
+		drone_enemy_sense	// Detect Zombie
+		drone_enemy_engauge // Fight Zombie
+		drone_take			// Pick up Drone
+		drone_takefail     	// Drone has inventory error
+		drone_heal			// Heal player
+		drone_empty			// Out of bandages when told to heal manually
+		drone_other			// ?
+		drone_shutdown 		// Player death/Drone too damaged
+		
+	-->
+</Configs>	
