@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="CappDrone"/>
-		<Description value="Turn the drone into your favorite content creator, Capp00!"/>
-		<Author value="Genosis"/>
-		<Version value="1.0"/>
-	</ModInfo>
+    <Name value="CappDrone" />
+    <DisplayName value="Capp Drone" />
+    <Description value="Turn the drone into your favorite 7 Days to Die content creator, Capp00" />
+    <Author value="Genosis" />
+    <Version value="1.0" />
+	  <Website value="https://youtube.com/Genosis" />
 </xml>
