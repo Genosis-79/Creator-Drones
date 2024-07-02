@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="DaphyDrone2"/>
-		<Description value="Turn the drone into your favorite content creator, DaphyDuck91!"/>
-		<Author value="Genosis"/>
-		<Version value="2.0"/>
-	</ModInfo>
+    <Name value="DaphyDrone" />
+    <DisplayName value="Daphy Drone" />
+    <Description value="Turn the drone into your favorite 7 Days to Die content creator, DaphyDuck91" />
+    <Author value="Genosis" />
+    <Version value="1.0" />
+	  <Website value="https://youtube.com/Genosis" />
 </xml>
